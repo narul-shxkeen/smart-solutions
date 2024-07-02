@@ -2,6 +2,7 @@ import React from "react";
 import ResponsiveAppBar from "./components/newNav";
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Landing from "./components/landing/landing";
+import Footer from "./components/footer";
 
 function App() {
     return <Router>
@@ -13,6 +14,7 @@ function App() {
             <Route path="/clients" element={<Clients />} />
             <Route path="/contacts" element={<Contacts />} /> */}
         </Routes>
+        <Footer/>
     </Router>
 }
 
