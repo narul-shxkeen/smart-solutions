@@ -9,7 +9,7 @@ function CollapsibleExample() {
     const [expanded, setExpanded] = useState(false);
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-white px-0" expanded={expanded} onSelect={() => setExpanded(false)}>
-      <Container className="d-flex justify-content-between items-center ml-4 sm:ml-12 px-0">
+      <Container className="d-flex justify-content-between items-center ml-4 mx-4 sm:mx-12 px-0">
       <Navbar.Brand><img src="images/Logo.png" alt="Logo" className="h-7 sm:h-16"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-toggler" onClick={() => setExpanded(expanded ? false : true)} />
         <Navbar.Collapse id="responsive-navbar-nav">
