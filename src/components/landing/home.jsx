@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 function Home() {    
     return (
@@ -19,7 +20,7 @@ function Home() {
             </div>
             </div>
             <h1 className="poppins-bold text-lg sm:text-4xl text-center text-white leading-normal">Your Trusted Partner in <span className="text-[#FFA630]">Superior Quality Printing</span> and Advertising Materials</h1>
-            <NavLink to="/contact" className="bg-white h-10 w-48 sm:h-16 sm:w-72 poppins-medium rounded-full mt-0 flex justify-center items-center text-xs sm:text-lg">Let's Talk - Send a message</NavLink>
+            <Link to="/contact" className="bg-white h-10 w-48 sm:h-16 sm:w-72 poppins-medium rounded-full mt-0 flex justify-center items-center text-xs sm:text-lg">Let's Talk - Send a message</Link>
             <div className="-z-10 h-10 w-48 sm:h-16 sm:w-72 relative bottom-[60px] sm:bottom-[83px] left-[3px] rounded-full ml-0 pl-0 pt-0" style={{ background: 'linear-gradient(93.28deg, #00A7E1 23.14%, #FFA630 87.83%)' }}>
             </div>
             </div>
