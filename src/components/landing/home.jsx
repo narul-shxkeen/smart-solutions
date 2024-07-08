@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {    
     return (
-        <div>
+        <div className="bg-[#F7F0F0]">
             <img src="images/landingImage.png" alt="Landing Image" className="absolute w-[100%] h-[80vh] sm:h-[90vh] object-cover -z-20"/>
             <div className="flex flex-col justify-center items-center h-[90vh] gap-6 mx-3 sm:mx-40">
         <div className="flex justify-center items-center">

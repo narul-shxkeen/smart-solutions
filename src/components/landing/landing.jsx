@@ -10,7 +10,7 @@ import About from "./about";
 
 function Landing() {  
     return (
-        <div>
+        <div className="w-full">
             <Home/>
             <About/>
             <ServicesMini/>
