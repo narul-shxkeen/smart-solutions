@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {    
     return (
         <div>
-            <img src="images/landingImage.png" alt="Landing Image" className="absolute w-full h-[80vh] sm:h-[90vh] object-cover -z-20"/>
+            <img src="images/landingImage.png" alt="Landing Image" className="absolute w-[100%] h-[80vh] sm:h-[90vh] object-cover -z-20"/>
             <div className="flex flex-col justify-center items-center h-[90vh] gap-6 mx-3 sm:mx-40">
         <div className="flex justify-center items-center">
             <div className="grid grid-cols-[3fr,7fr] grid-rows-2 gap-y-1 gap-x-1 px-0">

@@ -4,10 +4,10 @@ import {Link } from "react-router-dom";
 function Footer() {
     return <div>
         <div className="flex justify-around py-3">
-    <div className="flex flex-col gap-2 w-[100px] sm:w-[200px]">
+    <div className="flex flex-col gap-2 w-[100px] sm:w-[350px] break-words">
     <img src="images/Logo.png" alt="logo" className="h-8 w-[100px] sm:h-12 sm:w-[200px]"/>
     <p className="poppins-medium text-xs sm:text-base">Phone: <span className="text-[#00A7E1]">9810018313</span></p>
-    <p className="poppins-medium text-xs sm:text-base w-[100px] sm:w-[200px]">Email: <span className="text-[#00A7E1]">smartsolutionsprintnpack@gmail.com</span></p>
+    <p className="poppins-medium text-xs sm:text-base">Email: <span className="text-[#00A7E1]">smartsolutionsprintnpack@gmail.com</span></p>
     </div>
 
 <div className="flex flex-col">

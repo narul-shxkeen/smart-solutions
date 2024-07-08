@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import ResponsiveAppBar from "./components/newNav";
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Landing from "./components/landing/landing";
