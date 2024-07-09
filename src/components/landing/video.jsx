@@ -5,7 +5,7 @@ const VideoSection = () => {
   const videoRef = useRef(null);
   const { ref, inView } = useInView({
     threshold: 0.5, // Trigger when 50% of the video is in view
-    triggerOnce: true, // Only trigger once
+    triggerOnce: false, // Only trigger once
   });
 
   useEffect(() => {
