@@ -9,7 +9,7 @@ function ServicesMini(){
         <div className="w-[50px] md:w-[100px] h-1" style={{ background: 'linear-gradient(93.28deg, #00A7E1 23.14%, #FFA630 87.83%)' }}></div>
         </div>
         <p className="poppins-regular text-sm sm:text-lg">Delivering Precision and Quality in Every Print</p>
-        <div className="flex flex-col md:flex-row flex-wrap md:justify-around gap-10 md:gap-6 mt-2 md:mt-4">
+        <div className="flex flex-wrap justify-around gap-10 md:gap-6 mt-2 md:mt-4">
             <Link to=""><Card title="Offset Printing" description="High-speed, multicolor prints with impeccable quality and detail"/>
             </Link>
             <Link to=""><Card title="Foam Banners" description="Durable, visually appealing foam banners designed to make a significant impact."/>

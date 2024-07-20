@@ -9,7 +9,7 @@ function OrangeSection() {
 <div className="flex gap-20 justify-around flex-col md:flex-row">
     <div>
         <img src="images/behind_layer.png" alt="a graphic with a layer behind" className="absolute z-10 h-[200px] w-[200px] md:w-[440px] md:h-[370px]"/>
-        <img src="images/front_right_layer.png" alt="a graphic with a layer in front" className="relative top-[116px] left-[150px] mb-10 md:mb-20 z-20 h-[200px] w-[200px] md:w-[350px] md:h-[350px]"/>
+        <img src="images/minions.png" alt="a graphic with a layer in front" className="relative top-[116px] left-[150px] mb-10 md:mb-20 z-20 h-[200px] w-[200px] md:w-[350px] md:h-[350px]"/>
     </div>
     <div className="flex flex-col items-center justify-center gap-6 w-full md:w-1/2">
 <p className="poppins-regular text-xs sm:text-base text-center">

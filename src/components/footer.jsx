@@ -13,7 +13,7 @@ function Footer() {
 <div className="flex flex-col">
 <p className="poppins-semibold text-sm sm:text-xl">Navigation</p>
 <Link to="/" className="poppins-medium text-sm xs:text-base">Home</Link>
-<Link to="/contact" className="poppins-medium text-xs sm:text-base">About</Link>
+<Link to="/about" className="poppins-medium text-xs sm:text-base">About</Link>
 <Link to="/services" className="poppins-medium text-xs sm:text-base">Services</Link>
 <Link to="/clients" className="poppins-medium text-xs sm:text-base">Clients</Link>
 <Link to="/contact" className="poppins-medium text-xs sm:text-base">Contact</Link>
