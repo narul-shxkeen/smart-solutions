@@ -10,10 +10,10 @@ function Brands() {
         <div className="w-[126px] md:w-[190px] h-1" style={{ background: 'linear-gradient(93.28deg, #00A7E1 23.14%, #FFA630 87.83%)' }}></div>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
-            <img src="images/brand1.png" alt="coke"/>
-            <img src="images/brand2.png" alt="pepsi"/>
-            <img src="images/brand3.png" alt="brittania"/>
-            <img src="images/brand4.png" alt="nestle"/>
+            <img src="images/b5.png" alt="coke"/>
+            <img src="images/b6.png" alt="pepsi"/>
+            <img src="images/b3.png" alt="brittania"/>
+            <img src="images/b8.png" alt="nestle"/>
         </div>
 
     </div>}

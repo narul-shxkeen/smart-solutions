@@ -3,7 +3,7 @@ import react from "react";
 
 function Landing(){
     return <div className="flex flex-col-reverse md:flex-row gap-8 bg-[#37393A] ">
-        <img src="images/landingImage.png" alt="image of biggest printing machine" className="w-full md:w-1/2 h-1/2 md:h-[70vh] object-cover"/>
+        <img src="images/landingImage2.jpeg" alt="image of biggest printing machine" className="w-full md:w-1/2 h-1/2 md:h-[70vh] object-cover"/>
         <div className="flex justify-between order-1 md:order-2 py-7 md:py-0">
         <div className="absolute md:relative flex flex-col gap-6 justify-start md:justify-center w-full px-14 md:px-0 items-center md:items-start md:w-2/3 ">
         <h3 className="poppins-semibold text-base sm:text-4xl text-[#FFA630] mx-0">About Us</h3>
