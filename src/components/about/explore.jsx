@@ -7,7 +7,7 @@ function Explore(){
         <div className="flex w-full items-center flex-wrap justify-center md:justify-between px-8 md:px-24 gap-8">
             <div className="flex flex-col">
         <h1 className="poppins-semibold text-md sm:text-2xl">Explore All Services</h1>
-        <img src="images/graphics/wave.png" alt="a graphic with a wave" className="w-[125px] h-[50px] relative right-2"/>
+        <img src="images/graphics/wave.png" alt="a graphic with a wave" className="w-[60px] h-[25px] md:w-[125px] md:h-[50px] relative top-3 md:top-0 right-2"/>
         </div>
         <div className="">
         <Link to="/services" className="relative z-20 bg-white h-10 w-48 sm:h-10 sm:w-48 poppins-medium rounded-full mt-0 flex justify-center items-center text-xs sm:text-lg shadow-lg">Explore More</Link>

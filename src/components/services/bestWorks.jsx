@@ -23,16 +23,16 @@ function BestWorks() {
         ></div>
       </div>
       <div className="grid items-center justify-items-center grid-cols-2 gap-6 md:gap-20">
-        <img src="images/minions.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/W2.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w3.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/behind_layer.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w4.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w5.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w6.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w7.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w8.png" className="w-1/3 md:w-full h-auto object-cover"/>
-        <img src="images/w9.png" className="w-1/3 md:w-full h-auto object-cover"/>
+        <img src="images/minions.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/W2.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w3.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/behind_layer.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w4.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w5.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w6.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w7.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w8.png" className="w-2/3 md:w-full h-auto object-cover"/>
+        <img src="images/w9.png" className="w-2/3 md:w-full h-auto object-cover"/>
       </div>
     </div>
   );
