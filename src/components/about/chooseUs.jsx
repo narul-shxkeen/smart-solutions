@@ -32,7 +32,7 @@ function ChooseUs() {
           <h3 className="poppins-semibold text-sm sm:text-lg">
             Unmatched Quality
           </h3>
-          <p className="poppins-regular text-xs sm:text-lg text-justify">
+          <p className="poppins-regular text-xs sm:text-lg text-center md:text-justify">
             Utilizing state-of-the-art Heidelberg machinery for vibrant colors,
             sharp details, and durable finishes.
           </p>
@@ -46,7 +46,7 @@ function ChooseUs() {
           <h3 className="poppins-semibold text-sm sm:text-lg">
           In-House Manufacturing
           </h3>
-          <p className="poppins-regular text-xs sm:text-lg text-justify">
+          <p className="poppins-regular text-xs sm:text-lg text-center md:text-justify">
           As a leading in-house foam manufacturer in India, we use cutting-edge Kolsite machinery to ensure exceptional quality.
           </p>
         </div>
@@ -59,7 +59,7 @@ function ChooseUs() {
           <h3 className="poppins-semibold text-sm sm:text-lg">
           Client-Centric Approach
           </h3>
-          <p className="poppins-regular text-xs sm:text-lg text-justify">
+          <p className="poppins-regular text-xs sm:text-lg text-center md:text-justify">
           Dedicated to meeting the diverse needs of our clients, offering smart solutions for all their advertising challenges.
           </p>
         </div>
