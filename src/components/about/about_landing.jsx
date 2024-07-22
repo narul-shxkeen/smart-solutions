@@ -4,7 +4,7 @@ import react from "react";
 function Landing(){
     return <div className="flex flex-col-reverse md:flex-row gap-8 bg-[#37393A]">
         <img src="images/landingImage2.jpeg" alt="image of biggest printing machine" className="w-full md:w-1/2 h-1/2 md:h-[95vh] object-cover"/>
-        <div className="flex justify-between order-1 md:order-2 py-7 md:py-0 h-[200vh] md:h-auto">
+        <div className="flex justify-between order-1 md:order-2 py-7 md:py-0 h-[100vh] md:h-auto">
         <div className="absolute md:relative flex flex-col gap-6 justify-start md:justify-center w-full px-14 md:px-0 py-10 items-center md:items-start md:w-5/6 ">
         <h3 className="poppins-semibold text-base sm:text-4xl text-[#FFA630] mx-0">About Us</h3>
         <p className="text-white poppins-regular text-sm sm:text-lg z-20 text-justify md:text-left">Welcome to Smart Solutions Print N Pack, a distinguished leader in the printing and advertising materials industry, proudly serving from vibrant Mayapuri Industrial Area, Phase 1, for<span className="gradient-text"> over 30 years</span>. Our mission is to provide our esteemed clients with the best-adapted and innovative substrate solutions for all their advertising and packaging needs.
