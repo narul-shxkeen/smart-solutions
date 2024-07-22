@@ -8,7 +8,7 @@ function OrangeSection() {
         </div>
     <div className="bg-[#FFA630] flex flex-col gap-6 md:gap-10 justify-around items-center py-10 md:py-20 px-14">
 <h1 className="poppins-semibold text-lg sm:text-4xl text-center md:px-44">Delivering superior quality Printing Services for over 30 years</h1>
-<p className="poppins-regular text-xs sm:text-base text-justify md:text-center">
+<p className="poppins-regular text-xs sm:text-lg text-justify">
 At Smart Solutions Print N Pack, we are not just in the business of printing; we are in the business of providing smart solutions to your advertising challenges. Our team of skilled professionals is dedicated to delivering exceptional results that drive success for our clients.</p>
     </div>
     </div>

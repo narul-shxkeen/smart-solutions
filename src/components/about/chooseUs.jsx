@@ -32,7 +32,7 @@ function ChooseUs() {
           <h3 className="poppins-semibold text-sm sm:text-lg">
             Unmatched Quality
           </h3>
-          <p className="poppins-regular text-xs sm:text-base text-center">
+          <p className="poppins-regular text-xs sm:text-lg text-justify">
             Utilizing state-of-the-art Heidelberg machinery for vibrant colors,
             sharp details, and durable finishes.
           </p>
@@ -44,11 +44,10 @@ function ChooseUs() {
             className="h-[100px] md:h-[200px] w-auto"
           />
           <h3 className="poppins-semibold text-sm sm:text-lg">
-            Unmatched Quality
+          In-House Manufacturing
           </h3>
-          <p className="poppins-regular text-xs sm:text-base text-center">
-            Utilizing state-of-the-art Heidelberg machinery for vibrant colors,
-            sharp details, and durable finishes.
+          <p className="poppins-regular text-xs sm:text-lg text-justify">
+          As a leading in-house foam manufacturer in India, we use cutting-edge Kolsite machinery to ensure exceptional quality.
           </p>
         </div>
         <div className="flex flex-col gap-3 items-center w-[150px] md:w-[250px]">
@@ -58,11 +57,10 @@ function ChooseUs() {
             className="h-[100px] md:h-[200px] w-auto"
           />
           <h3 className="poppins-semibold text-sm sm:text-lg">
-            Unmatched Quality
+          Client-Centric Approach
           </h3>
-          <p className="poppins-regular text-xs sm:text-base text-center">
-            Utilizing state-of-the-art Heidelberg machinery for vibrant colors,
-            sharp details, and durable finishes.
+          <p className="poppins-regular text-xs sm:text-lg text-justify">
+          Dedicated to meeting the diverse needs of our clients, offering smart solutions for all their advertising challenges.
           </p>
         </div>
       </div>

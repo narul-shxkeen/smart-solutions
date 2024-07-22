@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../serviceCard";
+import { Link } from "react-router-dom";
 
 function ServicesOffered() {
   return (
@@ -25,8 +26,10 @@ function ServicesOffered() {
       </div>
       {/* flex flex-wrap gap-10 md:gap-20 justify-center */}
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-20">
-        <Card image="images/landingImage2.jpeg" alt="image of an offset printing machine" title="Offset Printing" description="High-speed, multicolor prints up to 28' x 40' with precision and vibrant details, achieving up to 15,000 impressions per hour."/>
-     <Card image="images/foamBanner.png" alt="image of shiny paper going into a large printing machine" title="Foam Banners" description="Durable, visually appealing banners designed to make a significant impact with striking visuals and long-lasting quality."/>
+       <Link to="/services/offsetprinting"><Card image="images/landingImage2.jpeg" alt="image of an offset printing machine" title="Offset Printing" description="High-speed, multicolor prints up to 28' x 40' with precision and vibrant details, achieving up to 15,000 impressions per hour."/>
+       </Link>
+       <Link to="/services/foambanners"><Card image="images/foamBanner.png" alt="image of shiny paper going into a large printing machine" title="Foam Banners" description="Durable, visually appealing banners designed to make a significant impact with striking visuals and long-lasting quality."/>
+     </Link>
      <Card image="images/danglers.png" alt="image of a colorful and cheap dangler for premium detergent bar" title="Danglers Printing" description="Eye-catching hanging advertisements that effectively promote your products and capture attention with high-quality prints."/>
       <Card image="images/UV.png" alt="image of 4 colorful glass bottles standing upright" title="UV Printing" description="Specialized printing services providing unique and striking visual effects that set your materials apart with vivid colors and UV finishes."/>
       <Card image="images/stepney.png" alt="image of a car's stepney with a dish washing add printing on it" title="Stepney Printing" description="Precision-printed materials crafted to meet your unique advertising needs, ensuring exceptional quality and customization."/>

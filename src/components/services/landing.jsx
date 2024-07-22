@@ -22,7 +22,7 @@ function Landing() {
           }}
         ></div>
       </div>
-      <p className="poppins-regular text-xs sm:text-base text-justify md:text-center w-[300px] md:w-auto px-10 md:py-10">We offer a comprehensive range of printing services, leveraging state-of-the-art Heidelberg machinery for vibrant colors, sharp details, and durable finishes. Our advanced technology and in-house production capabilities enable us to handle large volumes and complex projects with ease. Committed to innovation, customization, and competitive pricing, we ensure every project meets the highest standards of quality and precision.</p>
+      <p className="poppins-regular text-xs sm:text-lg text-justify w-[300px] md:w-auto px-10 md:py-10">We offer a comprehensive range of printing services, leveraging state-of-the-art Heidelberg machinery for vibrant colors, sharp details, and durable finishes. Our advanced technology and in-house production capabilities enable us to handle large volumes and complex projects with ease. Committed to innovation, customization, and competitive pricing, we ensure every project meets the highest standards of quality and precision.</p>
     </div>
   );
 }

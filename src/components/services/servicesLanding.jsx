@@ -4,6 +4,7 @@ import VideoSection from "../landing/video";
 import ServicesOffered from "./serviceOffered";
 import BestWorks from "./bestWorks";
 import Promo from "../landing/promo";
+import Offset from "./offset";
 
 function Services(){
     return<>

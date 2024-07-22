@@ -10,11 +10,15 @@ const VideoSection = () => {
 
   useEffect(() => {
     if (inView) {
+      if(videoRef.current){
+        videoRef.current.volume=0.2;
       videoRef.current.play();
+      }
     } else {
       videoRef.current.pause();
     }
   }, [inView]);
+
 
   return (
     <div ref={ref} className=''>
