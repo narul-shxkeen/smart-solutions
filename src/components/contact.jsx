@@ -42,7 +42,7 @@ function Contact(){
 <p className="text-sm md:text-base poppins-regular">Office Locations: Bahadurgarh and Mayapuri</p>
       </div>
       {/* <div className="w-full flex justify-center md:w-2/5"> */}
-      <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-8/12 md:w-2/5 bg-[#E8E9EB] rounded-xl shadow-xl py-6 md:py-10">
+      <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4 w-8/12 md:w-1/3 bg-[#E8E9EB] rounded-xl shadow-xl py-6 md:py-10">
       <div className="flex flex-col justify-between overflow-x-hidden">
         <label htmlFor="name" className="poppins-semibold">Your Name</label>
         <input type="text" id="name" className="relative rounded-lg  w-[200px] sm:w-[250px] border-[#979797] border-1" required />
