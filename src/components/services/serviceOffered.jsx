@@ -30,10 +30,12 @@ function ServicesOffered() {
        </Link>
        <Link to="/services/foambanners"><Card image="images/foamBanner.png" alt="image of shiny paper going into a large printing machine" title="Foam Banners" description="Durable, visually appealing banners designed to make a significant impact with striking visuals and long-lasting quality."/>
      </Link>
-     <Card image="images/danglers.png" alt="image of a colorful and cheap dangler for premium detergent bar" title="Danglers Printing" description="Eye-catching hanging advertisements that effectively promote your products and capture attention with high-quality prints."/>
-      <Card image="images/UV.png" alt="image of 4 colorful glass bottles standing upright" title="UV Printing" description="Specialized printing services providing unique and striking visual effects that set your materials apart with vivid colors and UV finishes."/>
-      <Card image="images/stepney.png" alt="image of a car's stepney with a dish washing add printing on it" title="Stepney Printing" description="Precision-printed materials crafted to meet your unique advertising needs, ensuring exceptional quality and customization."/>
-      </div>
+     <Link to="/services/danglers"><Card image="images/danglers.png" alt="image of a colorful and cheap dangler for premium detergent bar" title="Danglers Printing" description="Eye-catching hanging advertisements that effectively promote your products and capture attention with high-quality prints."/>
+     </Link>
+     <Link to="/services/uv"><Card image="images/UV.png" alt="image of 4 colorful glass bottles standing upright" title="UV Printing" description="Specialized printing services providing unique and striking visual effects that set your materials apart with vivid colors and UV finishes."/>
+     </Link>
+     <Link to="/services/stepney"><Card image="images/stepney.png" alt="image of a car's stepney with a dish washing add printing on it" title="Stepney Printing" description="Precision-printed materials crafted to meet your unique advertising needs, ensuring exceptional quality and customization."/>
+     </Link></div>
     </div>
   );
 }
