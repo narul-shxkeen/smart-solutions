@@ -22,7 +22,7 @@ function CollapsibleExample() {
     </NavLink>
     <NavLink to="/clients" onClick={() => setExpanded(false)}>Clients
     </NavLink>
-    <NavLink to="/contacts" onClick={() => setExpanded(false)}>Contact
+    <NavLink to="/contact" onClick={() => setExpanded(false)}>Contact
     </NavLink>
           </Nav>
         </Navbar.Collapse>

@@ -13,11 +13,12 @@ function Landing() {
         <div className="w-full">
             <Home/>
             <About/>
+            <Machine/>
             <ServicesMini/>
             <OrangeSection/>
             <VideoSection/>
             <Brands/>
-            <Machine/>
+           
             <Promo/>
         </div>
     );
