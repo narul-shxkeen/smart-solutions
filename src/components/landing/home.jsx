@@ -13,10 +13,10 @@ function Home() {
             <h3 className="poppins-medium text-md sm:text-2xl text-white mx-0">Welcome to</h3>
             </div>
             <div>
-            <h3 className="poppins-medium text-md sm:text-2xl text-white mx-0">Smart Solutions Print N Pack</h3>
+            <h3 className="poppins-semibold text-md sm:text-3xl relative md:right-7 text-white mx-0">Smart Solutions Print N Pack</h3>
             </div>
             <div></div>
-            <img src="images/Line 1.png" alt="a blue line which underlines the company's name" className=""/>
+            <img src="images/Line 1.png" alt="a blue line which underlines the company's name" className="md:w-[450px] relative md:right-8"/>
             </div>
             </div>
             <h1 className="poppins-bold text-lg sm:text-4xl text-center text-white leading-normal z-30">Your Trusted Partner in <span className="text-[#FFA630]">Superior Quality Printing</span> and Advertising Materials</h1>
